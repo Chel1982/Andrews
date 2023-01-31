@@ -1,0 +1,21 @@
+.header {
+   width:100%;
+   height: 80px;
+   background: rgba(0, 49, 78, 0.98);
+   color: white;
+   display: flex;
+}
+
+@media screen and ( max-width:1024px ) {
+   .header{ 
+         width: 1200px;
+         font-size: 1.3rem;
+   }
+}
+
+@media screen and ( max-width:768px ) {
+   .header{ 
+         width: 1200px;
+         font-size: 1.4rem;
+   }
+}

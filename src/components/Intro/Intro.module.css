@@ -1,0 +1,33 @@
+.intro{
+	height: 890px;
+	width:100%;
+	background: url('./images/intro.jpg');
+	background-position: center;
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+.content {
+	padding-top: 250px;
+}
+
+.title {
+	font-size: 4rem;
+}
+
+.text {
+	font-size: 2rem;
+}
+
+@media screen and ( max-width:1024px ) {
+   .intro{ 
+   		width: 1200px;
+   }
+}
+
+@media screen and ( max-width:768px ) {
+   .intro{ 
+   		width: 1200px;
+   }
+}

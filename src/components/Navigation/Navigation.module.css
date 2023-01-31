@@ -1,0 +1,12 @@
+.navigation{
+	display: flex;
+	margin-left: auto;
+	align-items: center;
+	margin-right: 50px;
+}
+
+.navigation a {
+	color: white;
+	text-decoration: underline;
+	cursor: pointer;
+}

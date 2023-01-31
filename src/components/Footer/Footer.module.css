@@ -1,0 +1,33 @@
+.footer {
+	width:100%;
+	height: 100px;
+	background: rgba(0, 49, 78, 0.98);
+	color: white;
+ 	text-align: center;
+}
+
+.footer nav {
+	margin-right: 200px;
+	margin-left: 200px;
+}
+
+.footer nav ul {
+	margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and ( max-width:1024px ) {
+   .footer{ 
+   		width: 1200px;
+   		font-size: 1.3rem;
+   		height: 130px;
+   }
+}
+
+@media screen and ( max-width:768px ) {
+   .footer{ 
+   		width: 1200px;
+   		font-size: 1.4rem;
+   		height: 130px;
+   }
+}
